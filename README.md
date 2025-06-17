@@ -1,4 +1,4 @@
-# 🐶🐱 Cão ou Gato?
+# 🐶🐱 Cachorro ou Gato?
 
 Este projeto exibe imagens aleatórias de cães e gatos, consumindo APIs públicas e apresentando uma interface moderna, responsiva e agradável.
 
