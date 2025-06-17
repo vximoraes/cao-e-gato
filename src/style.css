@@ -104,10 +104,11 @@ input[type="submit"]:focus {
 
 @media (max-width: 500px) {
     .central-card {
-        padding: 16px 8px 16px 8px;
+        padding: 12px 2vw 12px 2vw;
         width: 98vw;
         min-width: unset;
-        gap: 19px;
+        gap: 16px;
+        box-sizing: border-box;
     }
 
     .imagem {
@@ -115,5 +116,23 @@ input[type="submit"]:focus {
         height: 90vw;
         max-width: 320px;
         max-height: 320px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .seletor-recarregar {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    select,
+    input[type="submit"] {
+        font-size: 15px;
+        padding: 10px 10px;
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
     }
 }
